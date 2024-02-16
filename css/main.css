@@ -36,3 +36,14 @@ h2+p{
 
 /* [] is an attribute selector */
 /*** Attribute selector ***/
+
+a[href="#"]{
+    color:red;
+}
+
+a[href^="https"]{
+    border-left: 4px solid blue;
+    padding-left:1rem;
+}
+
+/* States related to pseudo classes */
