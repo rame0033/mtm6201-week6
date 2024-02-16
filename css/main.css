@@ -1,0 +1,38 @@
+/* Class selector is */
+.container{
+    max-width: 900px;
+    margin:0 auto;
+}
+/* Space is descendant combinator */
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    flex: 1;
+}
+/* > is direct child selector */
+main>p{
+    font-size: 1.25rem;
+}
+
+/* + is adjacent sibling */
+h2+p{
+    background-color: black;
+    color: white;
+}
+
+/* ~ is all future sibling selector */
+.stars span:hover~span{
+    opacity: 0.5;
+}
+
+.stars span{
+    cursor: pointer;
+}
+
+/* [] is an attribute selector */
+/*** Attribute selector ***/
